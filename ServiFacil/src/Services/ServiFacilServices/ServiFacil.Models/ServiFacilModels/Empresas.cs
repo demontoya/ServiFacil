@@ -12,5 +12,7 @@ namespace ServiFacil.Models.ServiFacilModels
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public List<int> IdServicio { get; set; }
+        public List<Contactos> Contacto { get; set; } 
+        public string Ubicacion { get; set; }
     }
 }
