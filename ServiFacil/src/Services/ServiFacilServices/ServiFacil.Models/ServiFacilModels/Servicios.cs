@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ServiFacil.Models.ServiFacilModels
 {
@@ -17,6 +18,10 @@ namespace ServiFacil.Models.ServiFacilModels
         public string NombreServicio { get; set; }
         public double Valor { get; set; } 
         public string DuracionEstimada { get; set; }
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
 
 
     }

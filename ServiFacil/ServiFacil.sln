@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiFacilServices", "Servi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EC19B872-70CD-4D34-9E1D-B25F98016BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiFacil.Models", "src\Services\ServiFacilServices\ServiFacil.Models\ServiFacil.Models.csproj", "{444A20D6-6D52-43A9-A736-B4D30838E3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiFacil.Models", "src\Services\ServiFacilServices\ServiFacil.Models\ServiFacil.Models.csproj", "{444A20D6-6D52-43A9-A736-B4D30838E3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiFacil.Core", "src\Services\ServiFacilServices\ServiFacil.Core\ServiFacil.Core.csproj", "{9F92EE58-0EBF-42EC-99EA-6FCA0E91C6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiFacil.Core", "src\Services\ServiFacilServices\ServiFacil.Core\ServiFacil.Core.csproj", "{9F92EE58-0EBF-42EC-99EA-6FCA0E91C6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiFacil.Repository", "src\Services\ServiFacilServices\ServiFacil.Repository\ServiFacil.Repository.csproj", "{05D776BD-8462-4715-B535-C8046339BE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiFacil.Repository", "src\Services\ServiFacilServices\ServiFacil.Repository\ServiFacil.Repository.csproj", "{05D776BD-8462-4715-B535-C8046339BE1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiFacil.API", "src\Services\ServiFacilServices\ServiFacil.API\ServiFacil.API.csproj", "{CF337510-DB44-470B-BA0E-F4D96CD7B7A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiFacil.API", "src\Services\ServiFacilServices\ServiFacil.API\ServiFacil.API.csproj", "{CF337510-DB44-470B-BA0E-F4D96CD7B7A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiFacil.Context", "src\Services\ServiFacilServices\SerFacil.Context\ServiFacil.Context.csproj", "{407E46CA-21B7-41BA-8E5F-B15E17B32F4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{CF337510-DB44-470B-BA0E-F4D96CD7B7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF337510-DB44-470B-BA0E-F4D96CD7B7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF337510-DB44-470B-BA0E-F4D96CD7B7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407E46CA-21B7-41BA-8E5F-B15E17B32F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407E46CA-21B7-41BA-8E5F-B15E17B32F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407E46CA-21B7-41BA-8E5F-B15E17B32F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407E46CA-21B7-41BA-8E5F-B15E17B32F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{9F92EE58-0EBF-42EC-99EA-6FCA0E91C6DE} = {DF4E929C-61DD-45EB-A79F-937528EB6521}
 		{05D776BD-8462-4715-B535-C8046339BE1A} = {DF4E929C-61DD-45EB-A79F-937528EB6521}
 		{CF337510-DB44-470B-BA0E-F4D96CD7B7A5} = {DF4E929C-61DD-45EB-A79F-937528EB6521}
+		{407E46CA-21B7-41BA-8E5F-B15E17B32F4B} = {DF4E929C-61DD-45EB-A79F-937528EB6521}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C0743CB-D3F2-47C6-A5F7-D8DC9E20A241}

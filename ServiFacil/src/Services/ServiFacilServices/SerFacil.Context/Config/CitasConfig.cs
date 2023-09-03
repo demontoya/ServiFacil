@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServiFacil.Models.ServiFacilModels
+namespace ServiFacil.Context.Config
 {
-    public class TiposServicios
+    internal class CitasConfig
     {
     }
 }
